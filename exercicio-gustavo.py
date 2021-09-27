@@ -89,13 +89,13 @@ print(soma)
 
 pergunta = input("Deseja fazer nova soma? (digite Sim ou Não) ") 
 
-while pergunta == "SIM" or pergunta == "sim" or pergunta == "Sim":   
+while pergunta == "SIM" or pergunta == "sim" or pergunta == "Sim" or pergunta == "S" or pergunta == "s":   
     a = int(input("Insira o primeiro valor para a soma: "))
     b = int(input("Insira o segundo valor para a soma: "))
     soma = a + b
     print(soma)
     pergunta = input("Deseja fazer nova soma? (digite Sim ou Não) ")
-PRINT("Fim")
+print("Fim")
 
 # 8º Faça um programa, utilizando while e listas, que permita o usuário realizar o cadastro de um número indeterminado de pessoas enquanto quiser e os mostre na tela ao finalizar.
 
