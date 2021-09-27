@@ -5,9 +5,9 @@ idade = int(input("Insira sua idade: "))
 
 if idade < 16:
     print("Voto inválido!")
-elif idade < 18 or idade > 70: 
+elif 18 > idade > 70: 
     print("Voto opcional!")
-elif idade >=18 and idade <= 70:
+elif 18 <= idade <= 70:
     print("Voto obrigatório!")
  
 # 2º Faça um Programa que leia três números inteiros e mostre o maior deles.
@@ -16,11 +16,11 @@ a = int(input("Insira um valor inteiro de a: "))
 b = int(input("Insira um valor inteiro de b: "))
 c = int(input("Insira um valor inteiro de c: "))
 
-if a >= b and a >= c:
+if  c <= a >= b:
     maior = a
-elif b >= a and b >= c:
+elif c <= b >= a:
     maior = b
-elif c >= a and c >= b:
+elif b <= c >= a:
     maior = c
 
 print(f"O maior valor é {maior}")
@@ -31,20 +31,20 @@ a = int(input("Insira um valor inteiro de a: "))
 b = int(input("Insira um valor inteiro de b: "))
 c = int(input("Insira um valor inteiro de c: "))
 
-if a >= b and a >= c:
+if  c <= a >= b:
     maior = a
-elif b >= a and b >= c:
+elif c <= b >= a:
     maior = b
-elif c >= a and c >= b:
+elif b <= c >= a:
     maior = c
 
 print(f"O maior valor é {maior}")
 
-if a <= b and a <= c:
+if c >= a <= b:
     menor = a
-elif b <= a and b <= c:
+elif c >= b <= a:
     menor = b
-elif c <= a and c <= b:
+elif a >= c <= b:
     menor = c
 
 print(f"O menor valor é {menor}")
